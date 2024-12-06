@@ -53,17 +53,25 @@ This installation sections assumes:
 - When running path planning algorithms, You have correctly set up the virtual environment with `python3 -m venv --system-site-packages venv && source venv/bin/activate` from the `make_venv` alias.
 - And that you have the latest of ROS2 Jazzy, RVIZ, and Gazebo already installed 
 
-1. Navigate to the repository:
+1. Clone the project from GitLab:
    ```bash
-   cd FinalProject
+   git clone git@gitlab.com:utahstate/courses/5345-intro-to-ros/2024-student-submissions/herbst-nate/finalproject_ece5340.git
    ```
-2. Use the provided `.rosinstall` file to set up the workspace:
+2. Navigate to the repository:
+   ```bash
+   cd finalproject_ece5340
+   ```
+3. Use the provided `.rosinstall` file to set up the workspace:
    ```bash
    vcs import --input finalProject.rosinstall src
    ```
-3. Build the workspace:
+4. Build the workspace:
    ```bash
    build
+   ```
+5. Source the directories in the workspace:
+   ```bash
+   sd
    ```
 
 ---
