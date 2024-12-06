@@ -1,5 +1,3 @@
-
----
 # Mobile Robotics Final Project
 #### Nate Herbst - A02307128
 ---
