@@ -61,11 +61,7 @@ This installation sections assumes:
    ```bash
    vcs import --input finalProject.rosinstall src
    ```
-<!-- 3. Install dependencies:
-   ```bash
-   rosdep install --from-paths src --ignore-src -r -y
-   ``` -->
-4. Build the workspace:
+3. Build the workspace:
    ```bash
    build
    ```
