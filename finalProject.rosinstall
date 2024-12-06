@@ -1,0 +1,14 @@
+# To use http to download the code, replace "git@gitlab.com:" with "https://gitlab.com/"
+# e.g.,
+#   git@gitlab.com:utahstate/courses/5345-intro-to-ros/ros_tutorials.git becomes
+#   https://gitlab.com/utahstate/courses/5345-intro-to-ros/ros_tutorials.git
+
+repositories:
+  py_sim:
+    type: git
+    url: git@gitlab.com:utahstate/courses/5345-intro-to-ros/2024-student-submissions/herbst-nate/py_sim.git
+    version: final_project
+  final_project_launch:
+    type: git
+    url: git@gitlab.com:utahstate/courses/5345-intro-to-ros/2024-student-submissions/herbst-nate/final_project_launch.git
+    version: final_project
